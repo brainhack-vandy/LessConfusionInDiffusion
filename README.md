@@ -1,7 +1,7 @@
 # LessConfusionInDiffusion
 The goal of “Less confusion in diffusion” is to develop a VLM (vison language model)-based tool that identifies image issues in diffusion weighted images (DWI) and recommends solutions. 
 
-#Project description:
+## Project description:
 ### What are you doing, for whom, and why?
 The goal of “Less confusion in diffusion” is to develop a LLM-based tool that identifies image issues (eddy current distortions, significant motion, poor resolution, insufficient number of b-vector directions, missing slices, top of brain not in FOV) in diffusion weighted images (DWI) and recommends solutions. Working with DWI can be tricky (especially if you don’t have a diffusion imaging expert on call!) and there are a wide range of distortions, artifacts, and noise that need to be corrected. The proposed tool is designed for people getting started in DWI. This project is the first step toward a tool that gives advice based on data acquisition and quality. 
 
