@@ -10,7 +10,7 @@ Overall, the proposed workflow is: A user pastes/loads a png screenshot of their
 - [Data Access](#data-access)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [Goals for Brainhack](#Goals)
+- [Goals for Brainhack](#goals-for-brainhack-global)
 
 
 ## Onborading Documentation
