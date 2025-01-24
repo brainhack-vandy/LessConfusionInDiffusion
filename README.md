@@ -10,6 +10,8 @@ Overall, the proposed workflow is: A user pastes/loads a png screenshot of their
 - [Data Access](#data-access)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
+- [Goals for Brainhack](#Goals)
+
 
 ## Onborading Documentation
 * Add your name to CONTRIBUTING.md by committing to the repo
@@ -69,7 +71,7 @@ Instructions for potential contributors:
 
 This project is licensed under [license type]. The data used in this project is covered under the original data sharing agreement of [repository name].
 
-### Goals for Brainhack Global
+## Goals for Brainhack Global
 1. Get a hugging face account
 2. Dataset curation: There is a directory of diffusion image slices. Have an expert create their associated text labels (what should the completion look like?). Note: This step was completed 1/23 by Nancy Newlin.
 3. Data visualization: How many samples are there of each type? What do the responses look like? This is the time to look at the data and understand what each of the expected cases are.  
