@@ -1,2 +1,2 @@
-Nancy Rose Newlin (@nancynewlin-masi)
+Nancy Rose Newlin (@nancynewlin-masi) <br />
 Andre Teixeira da Silva Hucke (@AndreHucke)
