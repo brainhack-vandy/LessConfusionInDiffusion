@@ -33,17 +33,17 @@ Step-by-step installation instructions:
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/project-name.git
+git clone https://github.com/nancynewlin-masi/LessConfusionInDiffusion.git
 ```
 
 ## Data Access
 I curated a few different options for us to play with. We have the samples in three forms: original DWI, .npy slices, and .png screenshots of those slices. Each sample/subject corresponds to a data entry in the table 'Labels.csv'. This file contains the lookup ID that matches the .png or .npy file name, the problems with the image, and the solutions to those problems. 
 
 Download from our Box folder:
-```
-PNGS: https://vanderbilt.box.com/s/uxkzwecsj33rf15g195uoemk1ra2i659
-LABELS: https://docs.google.com/spreadsheets/d/1s4FJtJTccR8zn7VT7Yoieg8Kg7F431F1gxwAhXnvT2o/edit?gid=1588099234#gid=1588099234
-```
+
+* PNGS: https://vanderbilt.box.com/s/uxkzwecsj33rf15g195uoemk1ra2i659
+* LABELS: https://docs.google.com/spreadsheets/d/1s4FJtJTccR8zn7VT7Yoieg8Kg7F431F1gxwAhXnvT2o/edit?gid=1588099234#gid=1588099234
+
 
 ## Project Structure
 The project will be structured as follows:
