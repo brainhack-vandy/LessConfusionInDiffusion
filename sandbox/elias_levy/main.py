@@ -43,6 +43,16 @@ model, _, preprocess = create_model_and_transforms(
     **{f"image_{k}": v for k, v in preprocess_cfg.items()},
 )
 
+# Load your custom weights
+# weights_path = "/home/BrainHack/finetuned_model_3k_epoch_20.pt"  # Replace with your weights path
+# state_dict = torch.load(weights_path)
+# model.load_state_dict(state_dict)
+
+# Load your custom weights
+weights_path = "/home/BrainHack/finetuned_model_200epochs_v2.pt"  # Replace with your weights path
+state_dict = torch.load(weights_path)
+model.load_state_dict(state_dict)
+
 # Define possible issues and tools
 issues = [
     "None",
@@ -72,7 +82,7 @@ model.eval()
 context_length = 256
 
 # Confidence threshold
-confidence_threshold = 0.5
+confidence_threshold = 0.1
 
 # Chatbot loop for user interaction
 while True:
